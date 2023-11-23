@@ -1,0 +1,8 @@
+
+django-admin startproject mysite . //Crea la carpeta de proyecto ej: mysite se adiciona el . para que que cree en el root del proyecto
+python manage.py runserver 5000  //Para arrancar el sv, se puede especificar el puerto ej: 5000
+python manage.py startapp nombredeapp //crea una aplicación para el proyecto
+
+Bases de datos:
+python manage.py makemigrations //Revisa si hay modelos sin guardar en la base de datos
+python manage.py migrate //Crea las tablas dentro de nuestra bases de datos de los modelos existentes
